@@ -87,15 +87,15 @@ router.get('/changenow/currencies', async function(req, res, next) {
     headers: { }
   };
 
-  // filteredDocs1 = await collection_currencies.find().sort({"timestamp": -1}).limit(1).toArray();
-  // if (filteredDocs1.length == 1) {
-  //   json = {
-  //     "status": 200,
-  //     "result": filteredDocs1[0].result,
-  //     "timestamp": moment().format()
-  //   };
-  // }
-  // else {
+  filteredDocs1 = await collection_currencies.find().sort({"timestamp": -1}).limit(1).toArray();
+  if (filteredDocs1.length == 1) {
+    json = {
+      "status": 200,
+      "result": filteredDocs1[0].result,
+      "timestamp": moment().format()
+    };
+  }
+  else {
     await axios(config)
     .then(function (response) {
       console.log(JSON.stringify(response.data));
@@ -117,7 +117,7 @@ router.get('/changenow/currencies', async function(req, res, next) {
     // await collection_currencies.deleteMany({});
     insertResult1 = await collection_currencies.insertOne(json);
     console.log(insertResult1);
-  // }
+  }
 
   res.header("Access-Control-Allow-Origin", "*");
   res.send(json);
