@@ -1,0 +1,57 @@
+{
+    "status": 200,
+    "from": "lunc",
+    "to": "atom",
+    "amount": "1000000",
+    "result_estimate": {
+        "payinAddress": "terra1ua35hd6mv4np8x8uxc8y7825ssvljshmhavel6",
+        "payoutAddress": "cosmos1quert43zvv8tgrawrc6acwusfshthtlp8hgsgw",
+        "payoutExtraId": "",
+        "fromCurrency": "lunc",
+        "toCurrency": "atom",
+        "refundAddress": "terra1lg85ytn3l78cxkuvh66tvscj2zxnvq55gnvgra",
+        "refundExtraId": "",
+        "id": "1e1dcf383d3718",
+        "amount": 11.752382
+    },
+    "timestamp": "2024-03-18T23:55:18+05:30"
+}
+
+
+{
+    "status": 200,
+    "result": {
+        "status": "waiting",
+        "payinAddress": "terra1ua35hd6mv4np8x8uxc8y7825ssvljshmhavel6",
+        "payoutAddress": "cosmos1quert43zvv8tgrawrc6acwusfshthtlp8hgsgw",
+        "fromCurrency": "lunc",
+        "toCurrency": "atom",
+        "refundAddress": "terra1lg85ytn3l78cxkuvh66tvscj2zxnvq55gnvgra",
+        "id": "1e1dcf383d3718",
+        "updatedAt": "2024-03-18T18:25:18.745Z",
+        "expectedSendAmount": 1000000,
+        "expectedReceiveAmount": 11.752382,
+        "createdAt": "2024-03-18T18:25:18.745Z",
+        "isPartner": false
+    },
+    "timestamp": "2024-03-18T23:57:28+05:30"
+}
+
+
+{
+    "status": 200,
+    "from": "atom",
+    "to": "lunc",
+    "amount": "10",
+    "result_estimate": {
+        "estimatedAmount": 816269.655722,
+        "transactionSpeedForecast": "10-60",
+        "warningMessage": null
+    },
+    "result_min_amt": {
+        "minAmount": 0.602684
+    },
+    "timestamp": "2024-03-18T23:59:23+05:30"
+}
+
+

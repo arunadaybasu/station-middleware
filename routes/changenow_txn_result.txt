@@ -1,0 +1,88 @@
+{
+    "status": 200,
+    "from": "btc",
+    "to": "lunc",
+    "amount": "1.0012",
+    "result_estimate": {
+        "estimatedAmount": 441419435.997313,
+        "transactionSpeedForecast": "10-60",
+        "warningMessage": null
+    },
+    "result_min_amt": {
+        "minAmount": 0.0001217
+    },
+    "timestamp": "2024-03-16T20:00:15+05:30"
+}
+
+{
+    "status": 200,
+    "from": "lunc",
+    "to": "btc",
+    "amount": "1000000",
+    "result_estimate": {
+        "estimatedAmount": 0.0021861,
+        "transactionSpeedForecast": "10-60",
+        "warningMessage": null
+    },
+    "result_min_amt": {
+        "minAmount": 46587.009281
+    },
+    "timestamp": "2024-03-16T21:24:21+05:30"
+}
+
+{
+    "status": 200,
+    "from": "lunc",
+    "to": "atom",
+    "amount": "1000000",
+    "result_estimate": {
+        "estimatedAmount": 12.149713,
+        "transactionSpeedForecast": "10-60",
+        "warningMessage": null
+    },
+    "result_min_amt": {
+        "minAmount": 46331.388395
+    },
+    "timestamp": "2024-03-16T21:25:02+05:30"
+}
+
+
+{
+    "status": 200,
+    "from": "lunc",
+    "to": "atom",
+    "amount": "1000000",
+    "result_estimate": {
+        "payinAddress": "terra1lnxprsa4dv03c2gr9lpfgxvsx34v8tm9gpvya2",
+        "payoutAddress": "cosmos1quert43zvv8tgrawrc6acwusfshthtlp8hgsgw",
+        "payoutExtraId": "",
+        "fromCurrency": "lunc",
+        "toCurrency": "atom",
+        "refundAddress": "terra1lg85ytn3l78cxkuvh66tvscj2zxnvq55gnvgra",
+        "refundExtraId": "",
+        "id": "91390a643e7cfa",
+        "amount": 12.193215
+    },
+    "timestamp": "2024-03-16T21:22:37+05:30"
+}
+
+{
+    "status": 200,
+    "from": "atom",
+    "to": "luna",
+    "amount": "10",
+    "result_estimate": {
+        "payinAddress": "cosmos153lf4zntqt33a4v0sm5cytrxyqn78q7kz8j8x5",
+        "payoutAddress": "terra1lg85ytn3l78cxkuvh66tvscj2zxnvq55gnvgra",
+        "payinExtraId": "4395387818527788",
+        "payoutExtraId": "",
+        "fromCurrency": "atom",
+        "toCurrency": "luna",
+        "refundAddress": "cosmos1quert43zvv8tgrawrc6acwusfshthtlp8hgsgw",
+        "refundExtraId": "",
+        "id": "20b3077390536a",
+        "amount": 123.591933,
+        "payinExtraIdName": "Memo"
+    },
+    "timestamp": "2024-03-18T20:17:20+05:30"
+}
