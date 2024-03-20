@@ -257,7 +257,6 @@ router.get('/changenow/create-txn', async function(req, res, next) {
     "status": 200,
     "timestamp": moment().format()
   };
-  var resultEstimate;
   const api_key = await get_checknow_apikey();
 
   var dataCreateTxn = JSON.stringify({
@@ -284,22 +283,30 @@ router.get('/changenow/create-txn', async function(req, res, next) {
 
   await axios(configCreateTxn)
     .then(async function (response) {
-      resultEstimate = response.data;
+      json = {
+        "status": 200,
+        "from": req.query.from,
+        "to": req.query.to,
+        "amount": req.query.amount,
+        "result_estimate": response.data,
+        "timestamp": moment().format()
+      };
       console.log(JSON.stringify(response.data));
     })
     .catch(function (error) {
-      console.log(error);
+      json = {
+        "status": 400,
+        "from": req.query.from,
+        "to": req.query.to,
+        "amount": req.query.amount,
+        "error_message": error.response.data,
+        "timestamp": moment().format()
+      };
+      console.log(error.response.data.error, error.response.data.message);
     });
 
 
-  json = {
-    "status": 200,
-    "from": req.query.from,
-    "to": req.query.to,
-    "amount": req.query.amount,
-    "result_estimate": resultEstimate,
-    "timestamp": moment().format()
-  };
+  
   res.header("Access-Control-Allow-Origin", "*");
   res.send(json);
 
@@ -311,7 +318,6 @@ router.get('/changenow/txn-status', async function(req, res, next) {
     "status": 200,
     "timestamp": moment().format()
   };
-  var resultTxnStatus;
   const txnid = req.query.txnid;
   const api_key = await get_checknow_apikey();
 
@@ -324,19 +330,22 @@ router.get('/changenow/txn-status', async function(req, res, next) {
 
   await axios(configNetworkFee)
     .then(async function (response) {
-      resultTxnStatus = response.data;
+      json = {
+        "status": 200,
+        "result": response.data,
+        "timestamp": moment().format()
+      };
       console.log(JSON.stringify(response.data));
     })
     .catch(function (error) {
-      console.log(error);
+      json = {
+        "status": 400,
+        "error_message": error.response.data,
+        "timestamp": moment().format()
+      };
+      console.log(JSON.stringify(error.response.statusText));
     });
 
-
-  json = {
-    "status": 200,
-    "result": resultTxnStatus,
-    "timestamp": moment().format()
-  };
   res.header("Access-Control-Allow-Origin", "*");
   res.send(json);
 
