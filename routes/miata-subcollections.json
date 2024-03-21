@@ -1,0 +1,826 @@
+[
+    {
+        "id": 117,
+        "identifier": "mystery",
+        "symbol": "AIRF",
+        "title": "The Mystery Hangar",
+        "description": "The Hangar that contains at least 3 Airplane NFTs, with a chance of up to 5. Chances are: 75% for 3 NFTs, 20% for 4 NFTs and 5% for 5 NFTs.",
+        "warningText": null,
+        "image": null,
+        "previewTitle": null,
+        "previewImage": null,
+        "artworkImage": "/assets/img/aw_collection_117.jpg",
+        "twitter": "",
+        "discord": null,
+        "website": null,
+        "telegram": "",
+        "whitepaper": "",
+        "boostInfoUrl": null,
+        "boostLabel": null,
+        "externalMintUrl": null,
+        "ownerWallet": "terra1xusghqxnaxmnflqxtuh6jlumjfvapksw5ctnm3",
+        "royaltyWallet": "terra1xusghqxnaxmnflqxtuh6jlumjfvapksw5ctnm3",
+        "treasuryWallet": "terra1t686d3yxag8qndyk429h602qzxy4m6ykjcuuxx",
+        "treasuryWallet2": "",
+        "treasuryDenoms": null,
+        "burnWallet": "",
+        "validatorAddress": "",
+        "marketRoyalty": 0,
+        "feeWallet": "terra12lzf9lyd520uezrzwqwwvjer8lm8zdpg6elc7k",
+        "mintFee": 0.1,
+        "marketFee": 0.005,
+        "treasuryShare": 0,
+        "treasuryMintShare": 0,
+        "burnShare": 0,
+        "burnMintShare": 0,
+        "mintShares":
+        [
+            {
+                "wallet": "terra1xusghqxnaxmnflqxtuh6jlumjfvapksw5ctnm3",
+                "share": 0.925,
+                "name": "Owner"
+            },
+            {
+                "wallet": "terra1t686d3yxag8qndyk429h602qzxy4m6ykjcuuxx",
+                "share": 0.05,
+                "name": "Treasury"
+            },
+            {
+                "wallet": "terra12lzf9lyd520uezrzwqwwvjer8lm8zdpg6elc7k",
+                "share": 0.025,
+                "name": "Fee"
+            }
+        ],
+        "marketShares":
+        [
+            {
+                "wallet": "terra1xusghqxnaxmnflqxtuh6jlumjfvapksw5ctnm3",
+                "share": 0.05,
+                "name": "Royalty"
+            },
+            {
+                "wallet": "terra1t686d3yxag8qndyk429h602qzxy4m6ykjcuuxx",
+                "share": 0.03,
+                "name": "Treasury"
+            },
+            {
+                "wallet": "terra12lzf9lyd520uezrzwqwwvjer8lm8zdpg6elc7k",
+                "share": 0.01,
+                "name": "Fee"
+            }
+        ],
+        "boostShares": null,
+        "hiddenMint": true,
+        "created": null,
+        "mintStart": null,
+        "mintEnd": null,
+        "mintAmount": 0,
+        "mintPerWallet": 310,
+        "mintPerRun": 10,
+        "mintPrice": null,
+        "mintPriceDollar": 0,
+        "mintPriceMin": 0,
+        "mintPriceMax": 0,
+        "mintPriceSlippage": 0.05,
+        "mintPriceUSTC": 0,
+        "mintPrices": null,
+        "mintContract": "terra19wz8gw49hp0myv7fnzuwhfaml684pcn7falsk0",
+        "marketContract": "terra10ms7rtn3g29k9aenv63pjc3sxxl5a6y4x2s77a",
+        "stakingContract": "",
+        "unstakingPeriod": 0,
+        "rewardStakingFactor": 0,
+        "rewardDistributionFactor": 0,
+        "rewardOwnerFactor": 0,
+        "type": "NFT",
+        "rarity": "MIXED",
+        "isGeneric": true,
+        "hasGenericImages": false,
+        "isSVG": false,
+        "isSwap": false,
+        "swapRandom": false,
+        "swapMultiple": false,
+        "mintable": false,
+        "isHidden": false,
+        "isLegacy": false,
+        "swapIncrement": 0,
+        "reservedSwapIncrement": 0,
+        "ipfsJSONPrefix": "https://ipfs.miata-ipfs.com/ipfs/QmQZBnuVX5h4xgSZHSn7sP3pQt4prXYhtpy63UFsAAXc7r/",
+        "ipfsJSONFile": null,
+        "ipfsImagePrefix": "https://ipfs.miata-ipfs.com/ipfs/Qmaxcsf7xwAMzWge1QYHhTkAGrjqS6rQoyVboBCDShPRiH/",
+        "ipfsImageFile": null,
+        "ipfsImageSuffix": "png",
+        "ipfsVideoPrefix": "",
+        "ipfsVideoFile": null,
+        "ipfsVideoSuffix": "mp4",
+        "unboxedById": null,
+        "unboxingContents":
+        [
+            {
+                "token_id": "1",
+                "contents":
+                [
+                    {
+                        "amount": 3,
+                        "items":
+                        [
+                            {
+                                "token_id": "#",
+                                "identifier": "",
+                                "probability": 10000,
+                                "max_supply": 750,
+                                "token_identifier": ""
+                            }
+                        ]
+                    },
+                    {
+                        "amount": 1,
+                        "items":
+                        [
+                            {
+                                "token_id": "#",
+                                "identifier": "",
+                                "probability": 2500,
+                                "max_supply": 250,
+                                "token_identifier": ""
+                            }
+                        ]
+                    },
+                    {
+                        "amount": 1,
+                        "items":
+                        [
+                            {
+                                "token_id": "#",
+                                "identifier": "",
+                                "probability": 500,
+                                "max_supply": 50,
+                                "token_identifier": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "allowSend": true,
+        "allowBurn": true,
+        "artistId": 16,
+        "chainId": 1,
+        "subCollectionOfId": 59,
+        "useMainCollectionId": false,
+        "extendedSettings":
+        {
+            "staking":
+            {},
+            "boosting":
+            {},
+            "evolution":
+            {}
+        },
+        "nfts":
+        []
+    },
+    {
+        "id": 64,
+        "identifier": "pilots",
+        "symbol": "AIRF",
+        "title": "Pilots",
+        "description": "The Alliance Pilots",
+        "warningText": null,
+        "image": null,
+        "previewTitle": null,
+        "previewImage": null,
+        "artworkImage": "/assets/img/aw_collection_64.jpg",
+        "twitter": "https://twitter.com/sweatsweep1",
+        "discord": null,
+        "website": "https://www.bigbangx.io/air-force-lunc",
+        "telegram": "https://t.me/luncairforce",
+        "whitepaper": "https://air-force-lunc.gitbook.io/air-force-lunc-the-alliance-whitepaper/",
+        "boostInfoUrl": null,
+        "boostLabel": null,
+        "externalMintUrl": null,
+        "ownerWallet": "terra1xusghqxnaxmnflqxtuh6jlumjfvapksw5ctnm3",
+        "royaltyWallet": "terra1xusghqxnaxmnflqxtuh6jlumjfvapksw5ctnm3",
+        "treasuryWallet": "terra1t686d3yxag8qndyk429h602qzxy4m6ykjcuuxx",
+        "treasuryWallet2": "",
+        "treasuryDenoms": null,
+        "burnWallet": "",
+        "validatorAddress": "",
+        "marketRoyalty": 0.05,
+        "feeWallet": "terra12lzf9lyd520uezrzwqwwvjer8lm8zdpg6elc7k",
+        "mintFee": 0.025,
+        "marketFee": 0.005,
+        "treasuryShare": 0.03,
+        "treasuryMintShare": 0,
+        "burnShare": 0,
+        "burnMintShare": 0,
+        "mintShares": null,
+        "marketShares": null,
+        "boostShares": null,
+        "hiddenMint": true,
+        "created": "2023-04-27T00:00:00.000Z",
+        "mintStart": null,
+        "mintEnd": null,
+        "mintAmount": 60,
+        "mintPerWallet": 60,
+        "mintPerRun": 10,
+        "mintPrice": 0,
+        "mintPriceDollar": 0,
+        "mintPriceMin": 0,
+        "mintPriceMax": 0,
+        "mintPriceSlippage": 0.05,
+        "mintPriceUSTC": 0,
+        "mintPrices": null,
+        "mintContract": "terra19wz8gw49hp0myv7fnzuwhfaml684pcn7falsk0",
+        "marketContract": "terra10ms7rtn3g29k9aenv63pjc3sxxl5a6y4x2s77a",
+        "stakingContract": "",
+        "unstakingPeriod": 259200,
+        "rewardStakingFactor": 0,
+        "rewardDistributionFactor": 0,
+        "rewardOwnerFactor": 0,
+        "type": "NFT",
+        "rarity": "MIXED",
+        "isGeneric": true,
+        "hasGenericImages": false,
+        "isSVG": false,
+        "isSwap": false,
+        "swapRandom": false,
+        "swapMultiple": false,
+        "mintable": false,
+        "isHidden": false,
+        "isLegacy": false,
+        "swapIncrement": 0,
+        "reservedSwapIncrement": 0,
+        "ipfsJSONPrefix": "https://ipfs.miata-ipfs.com/ipfs/QmZyXymkrxLEQJvWzmeCLpuhq9HHo4jhhWCYj44Mt4N5Lp/",
+        "ipfsJSONFile": null,
+        "ipfsImagePrefix": "https://ipfs.miata-ipfs.com/ipfs/Qmf9iPncg3BQr9Y3EBqd462HSKvcm5jgGa6XmJWgrKnEoi/",
+        "ipfsImageFile": null,
+        "ipfsImageSuffix": "png",
+        "ipfsVideoPrefix": "",
+        "ipfsVideoFile": null,
+        "ipfsVideoSuffix": "mp4",
+        "unboxedById": null,
+        "unboxingContents": null,
+        "allowSend": true,
+        "allowBurn": true,
+        "artistId": 16,
+        "chainId": 1,
+        "subCollectionOfId": 59,
+        "useMainCollectionId": false,
+        "extendedSettings": null,
+        "nfts":
+        [
+            {
+                "id": 41593,
+                "token_id": "1",
+                "title": "The Pilot #1",
+                "description": "He has background as a businessman, investor, and software engineer. He will lead  his squadron with strong visionary leadership, efficient and decisive strategic.",
+                "pool": null,
+                "mintTime": null,
+                "addedToContract": true,
+                "image": "https://ipfs.miata-ipfs.com/ipfs/Qmf9iPncg3BQr9Y3EBqd462HSKvcm5jgGa6XmJWgrKnEoi/1.png",
+                "video": "",
+                "imageData": null,
+                "evolution": null,
+                "isCommon": true,
+                "collectionId": 64
+            }
+        ]
+    },
+    {
+        "id": 118,
+        "identifier": "mystery-mystery-1",
+        "symbol": "AIRF",
+        "title": "The Mystery Hangar",
+        "description": "The Hangar that contains at least 3 Airplane NFTs, with a chance of up to 5. Chances are: 75% for 3 NFTs, 20% for 4 NFTs and 5% for 5 NFTs.",
+        "warningText": null,
+        "image": null,
+        "previewTitle": null,
+        "previewImage": null,
+        "artworkImage": "/assets/img/aw_collection_118.jpg",
+        "twitter": "https://twitter.com/sweatsweep1",
+        "discord": null,
+        "website": "https://www.bigbangx.io/air-force-lunc",
+        "telegram": "https://t.me/luncairforce",
+        "whitepaper": "https://air-force-lunc.gitbook.io/air-force-lunc-the-alliance-whitepaper/",
+        "boostInfoUrl": null,
+        "boostLabel": null,
+        "externalMintUrl": null,
+        "ownerWallet": "terra1xusghqxnaxmnflqxtuh6jlumjfvapksw5ctnm3",
+        "royaltyWallet": "terra1xusghqxnaxmnflqxtuh6jlumjfvapksw5ctnm3",
+        "treasuryWallet": "terra1t686d3yxag8qndyk429h602qzxy4m6ykjcuuxx",
+        "treasuryWallet2": "",
+        "treasuryDenoms": null,
+        "burnWallet": "",
+        "validatorAddress": "",
+        "marketRoyalty": 0,
+        "feeWallet": "terra12lzf9lyd520uezrzwqwwvjer8lm8zdpg6elc7k",
+        "mintFee": 0.025,
+        "marketFee": 0.005,
+        "treasuryShare": 0,
+        "treasuryMintShare": 0,
+        "burnShare": 0,
+        "burnMintShare": 0,
+        "mintShares":
+        [
+            {
+                "wallet": "terra1xusghqxnaxmnflqxtuh6jlumjfvapksw5ctnm3",
+                "share": 0.925,
+                "name": "Owner"
+            },
+            {
+                "wallet": "terra1t686d3yxag8qndyk429h602qzxy4m6ykjcuuxx",
+                "share": 0.05,
+                "name": "Treasury"
+            },
+            {
+                "wallet": "terra12lzf9lyd520uezrzwqwwvjer8lm8zdpg6elc7k",
+                "share": 0.025,
+                "name": "Fee"
+            }
+        ],
+        "marketShares":
+        [
+            {
+                "wallet": "terra1xusghqxnaxmnflqxtuh6jlumjfvapksw5ctnm3",
+                "share": 0.05,
+                "name": "Royalty"
+            },
+            {
+                "wallet": "terra1t686d3yxag8qndyk429h602qzxy4m6ykjcuuxx",
+                "share": 0.03,
+                "name": "Treasury"
+            },
+            {
+                "wallet": "terra12lzf9lyd520uezrzwqwwvjer8lm8zdpg6elc7k",
+                "share": 0.01,
+                "name": "Fee"
+            }
+        ],
+        "boostShares": null,
+        "hiddenMint": true,
+        "created": "2023-04-27T00:00:00.000Z",
+        "mintStart": null,
+        "mintEnd": null,
+        "mintAmount": 310,
+        "mintPerWallet": 310,
+        "mintPerRun": 10,
+        "mintPrice": 1,
+        "mintPriceDollar": 0,
+        "mintPriceMin": 0,
+        "mintPriceMax": 0,
+        "mintPriceSlippage": 0.05,
+        "mintPriceUSTC": 0,
+        "mintPrices":
+        {
+            "uluna": 580000
+        },
+        "mintContract": "terra19wz8gw49hp0myv7fnzuwhfaml684pcn7falsk0",
+        "marketContract": "terra10ms7rtn3g29k9aenv63pjc3sxxl5a6y4x2s77a",
+        "stakingContract": "",
+        "unstakingPeriod": 0,
+        "rewardStakingFactor": 0,
+        "rewardDistributionFactor": 0,
+        "rewardOwnerFactor": 0,
+        "type": "MysteryBox",
+        "rarity": "COMMON",
+        "isGeneric": true,
+        "hasGenericImages": false,
+        "isSVG": false,
+        "isSwap": false,
+        "swapRandom": false,
+        "swapMultiple": false,
+        "mintable": true,
+        "isHidden": false,
+        "isLegacy": false,
+        "swapIncrement": 0,
+        "reservedSwapIncrement": 0,
+        "ipfsJSONPrefix": "https://ipfs.miata-ipfs.com/ipfs/QmQZBnuVX5h4xgSZHSn7sP3pQt4prXYhtpy63UFsAAXc7r/",
+        "ipfsJSONFile": null,
+        "ipfsImagePrefix": "https://ipfs.miata-ipfs.com/ipfs/Qmaxcsf7xwAMzWge1QYHhTkAGrjqS6rQoyVboBCDShPRiH/",
+        "ipfsImageFile": null,
+        "ipfsImageSuffix": "png",
+        "ipfsVideoPrefix": "",
+        "ipfsVideoFile": null,
+        "ipfsVideoSuffix": "mp4",
+        "unboxedById": 117,
+        "unboxingContents": null,
+        "allowSend": true,
+        "allowBurn": true,
+        "artistId": 16,
+        "chainId": 1,
+        "subCollectionOfId": 59,
+        "useMainCollectionId": false,
+        "extendedSettings":
+        {
+            "staking":
+            {},
+            "boosting":
+            {},
+            "evolution":
+            {}
+        },
+        "nfts":
+        [
+            {
+                "id": 157851,
+                "token_id": "1",
+                "title": "The Mystery Hangar",
+                "description": "The Hangar that contains at least 3 Airplane NFTs, with a chance of up to 5. Chances are: 75% for 3 NFTs, 20% for 4 NFTs and 5% for 5 NFTs.",
+                "pool": null,
+                "mintTime": null,
+                "addedToContract": true,
+                "image": "https://ipfs.miata-ipfs.com/ipfs/Qmaxcsf7xwAMzWge1QYHhTkAGrjqS6rQoyVboBCDShPRiH/1.png",
+                "video": "",
+                "imageData": null,
+                "evolution": null,
+                "isCommon": true,
+                "collectionId": 118
+            }
+        ]
+    },
+    {
+        "id": 126,
+        "identifier": "booster",
+        "symbol": "AIRF",
+        "title": "Booster Pack",
+        "description": "The Booster Pack is NFT Package contains of 4 item NFTs that allow players to collect In-game Unique Features (Defense and Attack Booster) in Air Force Lunc Play to Earn Gaming.",
+        "warningText": null,
+        "image": null,
+        "previewTitle": null,
+        "previewImage": null,
+        "artworkImage": "/assets/img/aw_collection_126.jpg",
+        "twitter": "",
+        "discord": null,
+        "website": null,
+        "telegram": "",
+        "whitepaper": "",
+        "boostInfoUrl": null,
+        "boostLabel": null,
+        "externalMintUrl": null,
+        "ownerWallet": "terra1xusghqxnaxmnflqxtuh6jlumjfvapksw5ctnm3",
+        "royaltyWallet": "terra1xusghqxnaxmnflqxtuh6jlumjfvapksw5ctnm3",
+        "treasuryWallet": "terra1t686d3yxag8qndyk429h602qzxy4m6ykjcuuxx",
+        "treasuryWallet2": "",
+        "treasuryDenoms": null,
+        "burnWallet": "",
+        "validatorAddress": "",
+        "marketRoyalty": 0,
+        "feeWallet": "terra12lzf9lyd520uezrzwqwwvjer8lm8zdpg6elc7k",
+        "mintFee": 0.1,
+        "marketFee": 0.005,
+        "treasuryShare": 0,
+        "treasuryMintShare": 0,
+        "burnShare": 0,
+        "burnMintShare": 0,
+        "mintShares":
+        [
+            {
+                "wallet": "terra1xusghqxnaxmnflqxtuh6jlumjfvapksw5ctnm3",
+                "share": 0.925,
+                "name": "Owner"
+            },
+            {
+                "wallet": "terra1t686d3yxag8qndyk429h602qzxy4m6ykjcuuxx",
+                "share": 0.05,
+                "name": "Treasury"
+            },
+            {
+                "wallet": "terra12lzf9lyd520uezrzwqwwvjer8lm8zdpg6elc7k",
+                "share": 0.025,
+                "name": "Fee"
+            }
+        ],
+        "marketShares":
+        [
+            {
+                "wallet": "terra1xusghqxnaxmnflqxtuh6jlumjfvapksw5ctnm3",
+                "share": 0.05,
+                "name": "Royalty"
+            },
+            {
+                "wallet": "terra1t686d3yxag8qndyk429h602qzxy4m6ykjcuuxx",
+                "share": 0.03,
+                "name": "Treasury"
+            },
+            {
+                "wallet": "terra12lzf9lyd520uezrzwqwwvjer8lm8zdpg6elc7k",
+                "share": 0.01,
+                "name": "Fee"
+            }
+        ],
+        "boostShares": null,
+        "hiddenMint": true,
+        "created": "2024-03-13T16:00:00.000Z",
+        "mintStart": null,
+        "mintEnd": null,
+        "mintAmount": 0,
+        "mintPerWallet": 5000,
+        "mintPerRun": 10,
+        "mintPrice": null,
+        "mintPriceDollar": 0,
+        "mintPriceMin": 0,
+        "mintPriceMax": 0,
+        "mintPriceSlippage": 0.05,
+        "mintPriceUSTC": 0,
+        "mintPrices": null,
+        "mintContract": "terra19wz8gw49hp0myv7fnzuwhfaml684pcn7falsk0",
+        "marketContract": "terra10ms7rtn3g29k9aenv63pjc3sxxl5a6y4x2s77a",
+        "stakingContract": "",
+        "unstakingPeriod": 0,
+        "rewardStakingFactor": 0,
+        "rewardDistributionFactor": 0,
+        "rewardOwnerFactor": 0,
+        "type": "NFT",
+        "rarity": "MIXED",
+        "isGeneric": true,
+        "hasGenericImages": false,
+        "isSVG": false,
+        "isSwap": false,
+        "swapRandom": false,
+        "swapMultiple": false,
+        "mintable": false,
+        "isHidden": false,
+        "isLegacy": false,
+        "swapIncrement": 0,
+        "reservedSwapIncrement": 0,
+        "ipfsJSONPrefix": "https://ipfs.miata-ipfs.com/ipfs/QmNVsee6aybpcWDDWeiwYDpqUFnST9m7LLjMinUn3gyscs/",
+        "ipfsJSONFile": null,
+        "ipfsImagePrefix": "https://ipfs.miata-ipfs.com/ipfs/QmdkHct5DiGVza6BPuZ3sTNv9krWCHEEP7W5rTAz3JmN1A/",
+        "ipfsImageFile": null,
+        "ipfsImageSuffix": "png",
+        "ipfsVideoPrefix": "",
+        "ipfsVideoFile": null,
+        "ipfsVideoSuffix": "mp4",
+        "unboxedById": null,
+        "unboxingContents":
+        [
+            {
+                "token_id": "1",
+                "contents":
+                [
+                    {
+                        "amount": 4,
+                        "items":
+                        [
+                            {
+                                "token_id": "2",
+                                "identifier": "booster",
+                                "probability": 250,
+                                "max_supply": 500,
+                                "token_identifier": "booster"
+                            },
+                            {
+                                "token_id": "3",
+                                "identifier": "booster",
+                                "probability": 1500,
+                                "max_supply": 3000,
+                                "token_identifier": "booster"
+                            },
+                            {
+                                "token_id": "4",
+                                "identifier": "booster",
+                                "probability": 500,
+                                "max_supply": 1000,
+                                "token_identifier": "booster"
+                            },
+                            {
+                                "token_id": "5",
+                                "identifier": "booster",
+                                "probability": 250,
+                                "max_supply": 500,
+                                "token_identifier": "booster"
+                            },
+                            {
+                                "token_id": "6",
+                                "identifier": "booster",
+                                "probability": 2000,
+                                "max_supply": 4000,
+                                "token_identifier": "booster"
+                            },
+                            {
+                                "token_id": "7",
+                                "identifier": "booster",
+                                "probability": 2000,
+                                "max_supply": 4000,
+                                "token_identifier": "booster"
+                            },
+                            {
+                                "token_id": "8",
+                                "identifier": "booster",
+                                "probability": 500,
+                                "max_supply": 1000,
+                                "token_identifier": "booster"
+                            },
+                            {
+                                "token_id": "9",
+                                "identifier": "booster",
+                                "probability": 750,
+                                "max_supply": 1500,
+                                "token_identifier": "booster"
+                            },
+                            {
+                                "token_id": "10",
+                                "identifier": "booster",
+                                "probability": 750,
+                                "max_supply": 1500,
+                                "token_identifier": "booster"
+                            },
+                            {
+                                "token_id": "11",
+                                "identifier": "booster",
+                                "probability": 1500,
+                                "max_supply": 3000,
+                                "token_identifier": "booster"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "allowSend": true,
+        "allowBurn": true,
+        "artistId": 16,
+        "chainId": 1,
+        "subCollectionOfId": 59,
+        "useMainCollectionId": false,
+        "extendedSettings":
+        {
+            "staking":
+            {},
+            "boosting":
+            {},
+            "evolution":
+            {}
+        },
+        "nfts":
+        [
+            {
+                "id": 162984,
+                "token_id": "10",
+                "title": "Booster",
+                "description": "Equip player aircraft with blue light beam weapons, cutting through enemy formations with precision and intensity.",
+                "pool": null,
+                "mintTime": null,
+                "addedToContract": true,
+                "image": "https://ipfs.miata-ipfs.com/ipfs/QmdkHct5DiGVza6BPuZ3sTNv9krWCHEEP7W5rTAz3JmN1A/10.png",
+                "video": "",
+                "imageData": null,
+                "evolution": null,
+                "isCommon": true,
+                "collectionId": 126
+            }
+        ]
+    },
+    {
+        "id": 127,
+        "identifier": "booster-mystery-1",
+        "symbol": "AIRF",
+        "title": "Booster Pack",
+        "description": "The Booster Pack is NFT Package contains of 4 item NFTs that allow players to collect In-game Unique Features (Defense and Attack Booster) in Air Force Lunc Play to Earn Gaming.",
+        "warningText": null,
+        "image": null,
+        "previewTitle": null,
+        "previewImage": null,
+        "artworkImage": "/assets/img/aw_collection_127.jpg",
+        "twitter": "",
+        "discord": null,
+        "website": null,
+        "telegram": "",
+        "whitepaper": "",
+        "boostInfoUrl": null,
+        "boostLabel": null,
+        "externalMintUrl": null,
+        "ownerWallet": "terra1xusghqxnaxmnflqxtuh6jlumjfvapksw5ctnm3",
+        "royaltyWallet": "terra1xusghqxnaxmnflqxtuh6jlumjfvapksw5ctnm3",
+        "treasuryWallet": "terra1t686d3yxag8qndyk429h602qzxy4m6ykjcuuxx",
+        "treasuryWallet2": "",
+        "treasuryDenoms": null,
+        "burnWallet": "",
+        "validatorAddress": "",
+        "marketRoyalty": 0,
+        "feeWallet": "terra12lzf9lyd520uezrzwqwwvjer8lm8zdpg6elc7k",
+        "mintFee": 0.025,
+        "marketFee": 0.005,
+        "treasuryShare": 0,
+        "treasuryMintShare": 0,
+        "burnShare": 0,
+        "burnMintShare": 0,
+        "mintShares":
+        [
+            {
+                "wallet": "terra1xusghqxnaxmnflqxtuh6jlumjfvapksw5ctnm3",
+                "share": 0.925,
+                "name": "Owner"
+            },
+            {
+                "wallet": "terra1t686d3yxag8qndyk429h602qzxy4m6ykjcuuxx",
+                "share": 0.05,
+                "name": "Treasury"
+            },
+            {
+                "wallet": "terra12lzf9lyd520uezrzwqwwvjer8lm8zdpg6elc7k",
+                "share": 0.025,
+                "name": "Fee"
+            }
+        ],
+        "marketShares":
+        [
+            {
+                "wallet": "terra1xusghqxnaxmnflqxtuh6jlumjfvapksw5ctnm3",
+                "share": 0.05,
+                "name": "Royalty"
+            },
+            {
+                "wallet": "terra1t686d3yxag8qndyk429h602qzxy4m6ykjcuuxx",
+                "share": 0.03,
+                "name": "Treasury"
+            },
+            {
+                "wallet": "terra12lzf9lyd520uezrzwqwwvjer8lm8zdpg6elc7k",
+                "share": 0.01,
+                "name": "Fee"
+            }
+        ],
+        "boostShares": null,
+        "hiddenMint": true,
+        "created": "2024-03-13T16:00:00.000Z",
+        "mintStart": null,
+        "mintEnd": null,
+        "mintAmount": 5000,
+        "mintPerWallet": 5000,
+        "mintPerRun": 10,
+        "mintPrice": 1,
+        "mintPriceDollar": 0,
+        "mintPriceMin": 0,
+        "mintPriceMax": 0,
+        "mintPriceSlippage": 0.05,
+        "mintPriceUSTC": 0,
+        "mintPrices":
+        {
+            "uluna": 1000000
+        },
+        "mintContract": "terra19wz8gw49hp0myv7fnzuwhfaml684pcn7falsk0",
+        "marketContract": "terra10ms7rtn3g29k9aenv63pjc3sxxl5a6y4x2s77a",
+        "stakingContract": "",
+        "unstakingPeriod": 0,
+        "rewardStakingFactor": 0,
+        "rewardDistributionFactor": 0,
+        "rewardOwnerFactor": 0,
+        "type": "MysteryBox",
+        "rarity": "COMMON",
+        "isGeneric": true,
+        "hasGenericImages": false,
+        "isSVG": false,
+        "isSwap": false,
+        "swapRandom": false,
+        "swapMultiple": false,
+        "mintable": true,
+        "isHidden": false,
+        "isLegacy": false,
+        "swapIncrement": 0,
+        "reservedSwapIncrement": 0,
+        "ipfsJSONPrefix": "https://ipfs.miata-ipfs.com/ipfs/QmNVsee6aybpcWDDWeiwYDpqUFnST9m7LLjMinUn3gyscs/",
+        "ipfsJSONFile": null,
+        "ipfsImagePrefix": "https://ipfs.miata-ipfs.com/ipfs/QmdkHct5DiGVza6BPuZ3sTNv9krWCHEEP7W5rTAz3JmN1A/",
+        "ipfsImageFile": null,
+        "ipfsImageSuffix": "png",
+        "ipfsVideoPrefix": "",
+        "ipfsVideoFile": null,
+        "ipfsVideoSuffix": "mp4",
+        "unboxedById": 126,
+        "unboxingContents": null,
+        "allowSend": true,
+        "allowBurn": true,
+        "artistId": 16,
+        "chainId": 1,
+        "subCollectionOfId": 59,
+        "useMainCollectionId": false,
+        "extendedSettings":
+        {
+            "staking":
+            {},
+            "boosting":
+            {},
+            "evolution":
+            {}
+        },
+        "nfts":
+        [
+            {
+                "id": 162986,
+                "token_id": "1",
+                "title": "Booster Pack",
+                "description": "The Booster Pack is NFT Package contains of 4 item NFTs that allow players to collect In-game Unique Features (Defense and Attack Booster) in Air Force Lunc Play to Earn Gaming.",
+                "pool": null,
+                "mintTime": null,
+                "addedToContract": true,
+                "image": "https://ipfs.miata-ipfs.com/ipfs/QmdkHct5DiGVza6BPuZ3sTNv9krWCHEEP7W5rTAz3JmN1A/1.png",
+                "video": "",
+                "imageData": null,
+                "evolution": null,
+                "isCommon": true,
+                "collectionId": 127
+            }
+        ]
+    }
+]

@@ -178,7 +178,7 @@ router.get('/changenow/estimate', async function(req, res, next) {
     "status": 200,
     "timestamp": moment().format()
   };
-  var resultEstimate, resultMinAmount, resultNetworkFee;
+  var resultEstimate, resultMinAmount, resultNetworkFee, errorEstimate =  false, errorMinAmount =  false;
   const api_key = await get_checknow_apikey();
   const coin_from = req.query.from;
   const coin_to = req.query.to;
@@ -214,17 +214,36 @@ router.get('/changenow/estimate', async function(req, res, next) {
       console.log(JSON.stringify(response.data));
     })
     .catch(function (error) {
-      console.log(error);
+      errorEstimate =  true;
+      json = {
+        "status": 400,
+        "from": coin_from,
+        "to": coin_to,
+        "amount": ex_amount,
+        "error_message": error.response.data,
+        "timestamp": moment().format()
+      };
+      console.log(error.response.data);
     });
 
-  await axios(configMinAmount)
-    .then(async function (response) {
-      resultMinAmount = response.data;
-      console.log(JSON.stringify(response.data));
-    })
-    .catch(function (error) {
-      console.log(error);
-    });
+  if (!errorEstimate)
+    await axios(configMinAmount)
+      .then(async function (response) {
+        resultMinAmount = response.data;
+        console.log(JSON.stringify(response.data));
+      })
+      .catch(function (error) {
+        errorMinAmount = true;
+          json = {
+          "status": 400,
+          "from": coin_from,
+          "to": coin_to,
+          "amount": ex_amount,
+          "error_message": error.response.data,
+          "timestamp": moment().format()
+        };
+        console.log(error.response.data);
+      });
 
   // await axios(configNetworkFee)
   //   .then(async function (response) {
@@ -235,17 +254,18 @@ router.get('/changenow/estimate', async function(req, res, next) {
   //     console.log(error);
   //   });
 
-
-  json = {
-    "status": 200,
-    "from": coin_from,
-    "to": coin_to,
-    "amount": ex_amount,
-    "result_estimate": resultEstimate,
-    "result_min_amt": resultMinAmount,
-    // "result_net_fee": resultNetworkFee,
-    "timestamp": moment().format()
-  };
+  if (!errorEstimate && !errorMinAmount)
+    json = {
+      "status": 200,
+      "from": coin_from,
+      "to": coin_to,
+      "amount": ex_amount,
+      "result_estimate": resultEstimate,
+      "result_min_amt": resultMinAmount,
+      // "result_net_fee": resultNetworkFee,
+      "timestamp": moment().format()
+    };
+    
   res.header("Access-Control-Allow-Origin", "*");
   res.send(json);
 
@@ -305,8 +325,6 @@ router.get('/changenow/create-txn', async function(req, res, next) {
       console.log(error.response.data.error, error.response.data.message);
     });
 
-
-  
   res.header("Access-Control-Allow-Origin", "*");
   res.send(json);
 
