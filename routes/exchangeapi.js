@@ -27,6 +27,7 @@ const db = dbClient.db(dbName);
 const collection_creds = db.collection('credentials');
 const collection_currencies = db.collection('currencies');
 const collection_pairs = db.collection('pairs');
+const collection_exchange_transactions = db.collection('exchangeTransactions');
 
 // const lcd = new LCDClient({
 //   URL: lcdURLPublicNode,
@@ -308,10 +309,12 @@ router.get('/changenow/create-txn', async function(req, res, next) {
         "from": req.query.from,
         "to": req.query.to,
         "amount": req.query.amount,
+        "depositAddress": req.query.deposit_address,
+        "contactEmail": req.query.user_email,
+        "refundAddress": req.query.refund_address,
         "result_estimate": response.data,
         "timestamp": moment().format()
       };
-      console.log(JSON.stringify(response.data));
     })
     .catch(function (error) {
       json = {
@@ -319,11 +322,18 @@ router.get('/changenow/create-txn', async function(req, res, next) {
         "from": req.query.from,
         "to": req.query.to,
         "amount": req.query.amount,
+        "depositAddress": req.query.deposit_address,
+        "contactEmail": req.query.user_email,
+        "refundAddress": req.query.refund_address,
         "error_message": error.response.data,
         "timestamp": moment().format()
       };
       console.log(error.response.data.error, error.response.data.message);
     });
+
+  // await collection_exchange_transactions.deleteMany({});
+  insertResult1 = await collection_exchange_transactions.insertOne(json);
+  console.log(insertResult1);
 
   res.header("Access-Control-Allow-Origin", "*");
   res.send(json);
